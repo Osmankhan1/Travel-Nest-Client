@@ -2,32 +2,47 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import { FcGoogle } from 'react-icons/fc';
 
 
 const Login = () => {
-    const {logInUser} = useContext(AuthContext);
+    const { logInUser, googleSignIn } = useContext(AuthContext);
     const navigate = useNavigate();
+    const googleNavigate = useNavigate();
 
     const handleLogin = e => {
         e.preventDefault();
         const form = e.target;
-        
+
         const email = form.email.value;
         const password = form.password.value;
-        const output = { email, password};
+        const output = { email, password };
         console.log(output);
 
         // signIn auth part
         logInUser(email, password)
+            .then(result => {
+                console.log(result.user)
+                e.target.reset();
+                navigate('/home')
+                Swal.fire({
+                    title: 'Successfull',
+                    text: 'You can successfully login',
+                    icon: 'success',
+                    confirmButtonText: 'Login'
+                })
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
+
+    // google
+    const handleGoogleLogin = () => {
+        googleSignIn()
         .then(result => {
-            console.log(result.user)
-            navigate('/home')
-            Swal.fire({
-                title: 'Successfull',
-                text: 'You can successfully login',
-                icon: 'success',
-                confirmButtonText: 'Login'
-              })
+            console.log(result)
+            googleNavigate('/home')
         })
         .catch(error => {
             console.error(error)
@@ -37,7 +52,7 @@ const Login = () => {
     return (
         <div className="hero min-h-screen bg-slate-200">
             <div className="hero-content flex-col ">
-            <h1 className="text-5xl font-semibold mb-4">Login <span className="text-[#FF3811]">now!</span></h1>
+                <h1 className="text-5xl font-semibold mb-4">Login <span className="text-[#FF3811]">now!</span></h1>
                 <div className="card  w-full max-w-sm shadow-2xl bg-base-200">
                     <form onSubmit={handleLogin} className="card-body">
                         <div className="form-control">
@@ -58,12 +73,17 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <button className="btn bg-[#FF3811] hover:bg-orange-600 text-white font-semibold">Login</button>
                             <div className="flex justify-between mt-1">
-                            <h1>Are you new?</h1>
-                            <Link className="text-blue-600 font-semibold underline" to='/register'>Register</Link>
+                                <h1>Are you new?</h1>
+                                <Link className="text-blue-600 font-semibold underline" to='/register'>Register</Link>
                             </div>
                         </div>
                     </form>
                 </div>
+
+                <div className="form-control mt-6 w-[400px] ">
+                    <button onClick={handleGoogleLogin}  className="btn bg-green-600 text-white hover:bg-green-700"><span className="text-2xl"><FcGoogle></FcGoogle></span>Google</button>
+                </div>
+
             </div>
         </div>
     );

@@ -45,7 +45,7 @@ const Testimonial = () => {
                                         <img className='w-10 h-10' src={tes} />
                                     </div>
                                     <div className=''>
-                                        <h1 className='text-3xl font-semibold mt-12'>Jesse Lee</h1>
+                                        <h1 className='text-3xl font-semibold mt-12'>Mary Grace</h1>
                                         <p className=''>United States</p>
                                         <div className="rating mt-6">
                                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -99,7 +99,7 @@ const Testimonial = () => {
                                         <img className='w-10 h-10' src={tes} />
                                     </div>
                                     <div className=''>
-                                        <h1 className='text-3xl font-semibold mt-12'>Terry Lynn</h1>
+                                        <h1 className='text-3xl font-semibold mt-12'>William James</h1>
                                         <p className=''>Canada</p>
                                         <div className="rating mt-6">
                                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -124,7 +124,7 @@ const Testimonial = () => {
                                         <img className='w-10 h-10' src={tes} />
                                     </div>
                                     <div className=''>
-                                        <h1 className='text-3xl font-semibold mt-12'>Julia green</h1>
+                                        <h1 className='text-3xl font-semibold mt-12'>Emma Grace</h1>
                                         <p className=''>Australia</p>
                                         <div className="rating mt-6">
                                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -149,7 +149,7 @@ const Testimonial = () => {
                                         <img className='w-10 h-10' src={tes} />
                                     </div>
                                     <div className=''>
-                                        <h1 className='text-3xl font-semibold mt-12'>Omar Ogle</h1>
+                                        <h1 className='text-3xl font-semibold mt-12'>Emir Eren</h1>
                                         <p className=''>Turkey</p>
                                         <div className="rating mt-6">
                                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -174,7 +174,7 @@ const Testimonial = () => {
                                         <img className='w-10 h-10' src={tes} />
                                     </div>
                                     <div className=''>
-                                        <h1 className='text-3xl font-semibold mt-12'>Jhao Zing Lee</h1>
+                                        <h1 className='text-3xl font-semibold mt-12'>Li Hua</h1>
                                         <p className=''>China</p>
                                         <div className="rating mt-6">
                                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
@@ -199,7 +199,7 @@ const Testimonial = () => {
                                         <img className='w-10 h-10' src={tes} />
                                     </div>
                                     <div className=''>
-                                        <h1 className='text-3xl font-semibold mt-12'>Akter Zaman</h1>
+                                        <h1 className='text-3xl font-semibold mt-12'>Sohail Khan</h1>
                                         <p className=''>Pakistan</p>
                                         <div className="rating mt-6">
                                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
