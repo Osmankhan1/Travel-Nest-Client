@@ -1,0 +1,22 @@
+ [
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/Zgh6nJx/basic.jpg",
+        "title": "BASIC PACKAGE",
+        "price": "$150"
+      },
+      {
+        "id": 2,
+        "img": " https://i.ibb.co/6H8mcKt/standar.jpg",
+        "title": "STANDARD PACKAGE",
+        "price": "$250"
+      },
+      {
+        "id": 3,
+        "img": " https://i.ibb.co/fxfSL5C/luxary.jpg",
+        "title": "LUXARY PACKAGE",
+        "price": "$350"
+      }
+    ]
+  
+  

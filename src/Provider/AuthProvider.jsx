@@ -27,13 +27,13 @@ const AuthProvider = ({children}) => {
     // log out user
     const logOut = () =>{
         setLoading(true);
-        signOut(auth)
+       return signOut(auth)
     }
 
     // google sign In
     const googleSignIn = () => {
         setLoading(true);
-        signInWithPopup(auth, provider)
+       return signInWithPopup(auth, provider)
     }
 
     // manage user

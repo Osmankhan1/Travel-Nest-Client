@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* <li><NavLink className='mr-3 text-xl font-semibold' to='login'>Login</NavLink></li> */}
     </>
     return (
-        <div className="navbar bg-slate-100 sticky top-0">
+        <div className="navbar bg-slate-100 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

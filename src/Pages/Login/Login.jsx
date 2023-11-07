@@ -8,7 +8,7 @@ import { FcGoogle } from 'react-icons/fc';
 const Login = () => {
     const { logInUser, googleSignIn } = useContext(AuthContext);
     const navigate = useNavigate();
-    const googleNavigate = useNavigate();
+    
 
     const handleLogin = e => {
         e.preventDefault();
@@ -42,7 +42,7 @@ const Login = () => {
         googleSignIn()
         .then(result => {
             console.log(result)
-            googleNavigate('/home')
+            navigate('/home')
         })
         .catch(error => {
             console.error(error)
