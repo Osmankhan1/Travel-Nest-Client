@@ -1,6 +1,8 @@
-import cover from '../../assets/img/rooms/bedroom (2).jpg'
+import { useLoaderData } from 'react-router-dom';
 
 const RoomDetails = () => {
+    const roomDetails = useLoaderData();
+    const {image} = roomDetails;
     return (
         <div className='max-w-7xl mx-auto '>
             <div>
@@ -8,10 +10,10 @@ const RoomDetails = () => {
             </div>
             <div className='flex gap-10 mb-44 '>
                 <div className='w-1/2 '>
-                    <img className='rounded-xl ' src={cover} alt="" />
+                    <img className='rounded-xl ' src={image} />
                 </div>
                 <div className='w-1/2'>
-                    <h1 className='text-4xl font-bold'>Luxary Room in this </h1>
+                    <h1 className='text-4xl font-bold'>Luxary Room in this: {roomDetails.length} </h1>
                     <h2 className='text-xl font-semibold mt-4'>Price :</h2>
                     <h2 className='text-xl font-semibold mt-2'>discount :</h2>
                     <h2 className='text-xl font-semibold mt-2'>Room Size :</h2>
