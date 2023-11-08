@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const PackegeCart = ({ packegeCart }) => {
@@ -16,7 +17,7 @@ const PackegeCart = ({ packegeCart }) => {
                     <h1 className="text-[18px] mt-3 text-">1 Bed Room</h1>
                 </div>
                 <div className="card-actions justify-end">
-                    <button className="btn border-2 border-indigo-600 hover:bg-[#FF3811] hover:text-white">Book Now</button>
+                    <Link to="/rooms"><button className="btn border-2 border-indigo-600 hover:bg-[#FF3811] hover:text-white">Book Now</button></Link>
                 </div>
             </div>
         </div>

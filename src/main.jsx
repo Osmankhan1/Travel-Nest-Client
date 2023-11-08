@@ -13,6 +13,7 @@ import Rooms from './Pages/Rooms/Rooms';
 import MyBookings from './Pages/MyBookings/MyBookings';
 import AuthProvider from './Provider/AuthProvider';
 import PrivateRout from './Rout/PrivateRout';
+import RoomDetails from './Pages/Rooms/RoomDetails';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: 'rooms',
         element: <Rooms></Rooms>,
+      },
+      {
+        path: 'roomDetails',
+        element: <RoomDetails></RoomDetails>
       },
       {
         path: 'bookings',

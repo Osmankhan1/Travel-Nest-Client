@@ -1,36 +1,120 @@
  [
       {
         "image": "https://i.ibb.co/W3RrZSQ/bedroom-1.jpg",
+        "room_type": "Deluxe Double Room",
+        "room_size": "30 sqm",
+        "discount": "20%",
+        "price_per_night": "$150",
         "title": "Deluxe Ocean View Room",
         "description": "Experience the ultimate in luxury with our Deluxe Ocean View Room. Breathtaking views of the azure sea and direct access to the private beach will make your stay unforgettable. The room features a king-sized bed, a private balcony, and a spacious bathroom. Immerse yourself in the beauty of the coast, and enjoy all the comforts you desire.",
         "rent_per_night": "$250"
       },
       {
         "image": " https://i.ibb.co/sVdqdfx/bedroom-2.jpg",
+        "room_type": "Standard King Room",
+        "room_size": "25 sqm",
+        "discount": "15%",
+        "price_per_night": "$120",
         "title": "Mountain View Suite",
         "description": "Find serenity and escape to the mountains in our Mountain View Suite. The suite offers panoramic vistas of towering peaks, a cozy fireplace, a king-sized bed, and a luxurious bathroom. Explore nearby hiking trails, unwind by the fireplace, and relish the tranquility of the mountain setting.",
         "rent_per_night": "$180"
       },
       {
         "image": "https://i.ibb.co/GW5K8Qm/bedroom-3.jpg",
+        "room_type": "Family Suite",
+        "room_size": "45 sqm",
+        "discount": "25%",
+        "price_per_night": "$220",
         "title": "City View Executive Suite",
         "description": "Indulge in the luxury of our City View Executive Suite in the heart of the city. The suite features a separate living area, a king-sized bed, a private balcony with stunning city views, and a spa-inspired bathroom. Experience the vibrancy of the city and unwind in style.",
         "rent_per_night": "$300"
       },
       {
         "image": "https://i.ibb.co/KD6sgtd/bedroom-4.jpg",
+        "room_type": "Ocean View Suite",
+        "room_size": "40 sqm",
+        "discount": "30%",
+        "price_per_night": "$200",
         "title": "Antique Room with a View",
         "description": "Step back in time with our Antique Room with a View. This charming room is furnished with antique decor, a queen-sized bed, and offers picturesque views of the historic town. Enjoy a sense of nostalgia and immerse yourself in the rich history of the area.",
         "rent_per_night": "$120"
       },
       {
         "image": "https://i.ibb.co/YhVgTP1/bedroom-5.jpg",
+        "room_type": "Luxury Penthouse",
+        "room_size": "60 sqm",
+        "discount": "10%",
+        "price_per_night": "$300",
         "title": "Beachfront Bungalow",
         "description": "Escape to a tropical paradise in our Beachfront Bungalow. The bungalow offers direct access to the beach, a thatched roof, a king-sized bed, and a private outdoor shower. Enjoy the sound of the waves and the lush tropical surroundings.",
         "rent_per_night": "$280"
       },
       {
         "image": "https://i.ibb.co/0ncnCHB/bedroom-6.jpg",
+        "room_type": "Executive Business Room",
+        "room_size": "35 sqm",
+        "discount": "20%",
+        "price_per_night": "$180",
+        "title": "Lakeside Cabin",
+        "description": "Embrace the rustic charm of our Lakeside Cabin. Nestled by a serene lake, the cabin features a cozy fireplace, a queen-sized bed, and a private dock. Immerse yourself in the tranquility of the wilderness and create lasting memories.",
+        "rent_per_night": "$150"
+      },
+      {
+        "image": "https://i.ibb.co/Bs39NHD/bedroom-7.jpg",
+        "room_type": "Junior Suite",
+        "room_size": "32 sqm",
+        "discount": "15%",
+        "price_per_night": "$160",
+        "title": "Deluxe Ocean View Room",
+        "description": "Experience the ultimate in luxury with our Deluxe Ocean View Room. Breathtaking views of the azure sea and direct access to the private beach will make your stay unforgettable. The room features a king-sized bed, a private balcony, and a spacious bathroom. Immerse yourself in the beauty of the coast, and enjoy all the comforts you desire.",
+        "rent_per_night": "$250"
+      },
+      {
+        "image": " https://i.ibb.co/PxthzNZ/bedroom-8.jpg",
+        "room_type": "Spa Retreat Room",
+        "room_size": "38 sqm",
+        "discount": "25%",
+        "price_per_night": "$190",
+        "title": "Mountain View Suite",
+        "description": "Find serenity and escape to the mountains in our Mountain View Suite. The suite offers panoramic vistas of towering peaks, a cozy fireplace, a king-sized bed, and a luxurious bathroom. Explore nearby hiking trails, unwind by the fireplace, and relish the tranquility of the mountain setting.",
+        "rent_per_night": "$180"
+      },
+      {
+        "image": "https://i.ibb.co/72gvTvb/bedroom-9.jpg",
+        "room_type": "Mountain View Cabin",
+        "room_size": "28 sqm",
+        "discount": "10%",
+        "price_per_night": "$130",
+        "title": "City View Executive Suite",
+        "description": "Indulge in the luxury of our City View Executive Suite in the heart of the city. The suite features a separate living area, a king-sized bed, a private balcony with stunning city views, and a spa-inspired bathroom. Experience the vibrancy of the city and unwind in style.",
+        "rent_per_night": "$300"
+      },
+      {
+        "image": "https://i.ibb.co/wg48Ct7/bedroom-10.jpg ",
+        "room_type": "Cozy Studio Apartment",
+        "room_size": "50 sqm",
+        "discount": "20%",
+        "price_per_night": "$210",
+        "title": "Antique Room with a View",
+        "description": "Step back in time with our Antique Room with a View. This charming room is furnished with antique decor, a queen-sized bed, and offers picturesque views of the historic town. Enjoy a sense of nostalgia and immerse yourself in the rich history of the area.",
+        "rent_per_night": "$120"
+      },
+      {
+        "image": "https://i.ibb.co/C9NHxYh/bedroom-11.jpg",
+        "room_type": "Presidential Suite",
+        "room_size": "80 sqm",
+        "discount": "30%",
+        "price_per_night": "$400",
+        "title": "Beachfront Bungalow",
+        "description": "Escape to a tropical paradise in our Beachfront Bungalow. The bungalow offers direct access to the beach, a thatched roof, a king-sized bed, and a private outdoor shower. Enjoy the sound of the waves and the lush tropical surroundings.",
+        "rent_per_night": "$280"
+      },
+      {
+        "image": "https://i.ibb.co/YtFjB5P/bedroom-12.jpg",
+        "room_type": "Economy Single Room",
+        "room_size": "20 sqm",
+        "discount": "5%",
+        "price_per_night": "$90",
         "title": "Lakeside Cabin",
         "description": "Embrace the rustic charm of our Lakeside Cabin. Nestled by a serene lake, the cabin features a cozy fireplace, a queen-sized bed, and a private dock. Immerse yourself in the tranquility of the wilderness and create lasting memories.",
         "rent_per_night": "$150"

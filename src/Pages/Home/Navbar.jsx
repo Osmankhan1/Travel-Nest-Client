@@ -18,7 +18,7 @@ const Navbar = () => {
         <li><NavLink className='mr-3 text-xl font-semibold' to='home'>Home</NavLink></li>
         <li><NavLink className='mr-3 text-xl font-semibold' to='rooms'>Rooms</NavLink></li>
         <li><NavLink className='mr-3 text-xl font-semibold' to='bookings'>My Bookings</NavLink></li>
-        {/* <li><NavLink className='mr-3 text-xl font-semibold' to='login'>Login</NavLink></li> */}
+        <li><NavLink className='mr-3 text-xl font-semibold' to='roomDetails'>roomDetails</NavLink></li>
     </>
     return (
         <div className="navbar bg-slate-100 ">
