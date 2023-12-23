@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { FcGoogle } from 'react-icons/fc';
@@ -8,6 +8,9 @@ import { FcGoogle } from 'react-icons/fc';
 const Login = () => {
     const { logInUser, googleSignIn } = useContext(AuthContext);
     const navigate = useNavigate();
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname || '/';
     
 
     const handleLogin = e => {
@@ -24,7 +27,7 @@ const Login = () => {
             .then(result => {
                 console.log(result.user)
                 e.target.reset();
-                navigate('/home')
+                navigate('/')
                 Swal.fire({
                     title: 'Successfull',
                     text: 'You can successfully login',
@@ -42,7 +45,7 @@ const Login = () => {
         googleSignIn()
         .then(result => {
             console.log(result)
-            navigate('/home')
+            navigate('/')
         })
         .catch(error => {
             console.error(error)

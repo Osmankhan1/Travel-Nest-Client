@@ -40,11 +40,11 @@ const Banner = () => {
                 {/* Slider 1 */}
                 <SwiperSlide><img className='space-y-reverse' src={banner2} />
                     <div className="absolute flex h-full  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] ">
-                        <div className='ml-24 mt-24'>
-                            <h1 className='text-6xl font-bold text-white w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
-                            <p className='text-gray-50 mt-7 w-[500px] text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
-                            <div className='flex gap-5 mt-7'>
-                                <Link to='/rooms'><button className='py-4 px-5 bg-[#FF3811] hover:bg-orange-600 text-white text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
+                        <div className='md:ml-10 lg:ml-24 md:mt-10 lg:mt-24'>
+                            <h1 className='md:text-3xl lg:text-6xl font-bold text-white md:w-[280px] lg:w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
+                            <p className='text-gray-50 md:mt-3 lg:mt-7 md:w-[250px] lg:w-[500px] md:text-[12px] lg:text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
+                            <div className='flex gap-5 md:mt-3 lg:mt-7'>
+                                <Link to='/rooms'><button className='md:px-4 lg:py-4 md:py-2 lg:px-5 bg-[#FF3811] hover:bg-orange-600 text-white lg:text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
 
                             </div>
                         </div>
@@ -53,11 +53,11 @@ const Banner = () => {
                 {/* Slider 2 */}
                 <SwiperSlide><img className='space-y-reverse' src={banner1} />
                     <div className="absolute flex h-full  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] ">
-                        <div className='ml-24 mt-24'>
-                            <h1 className='text-6xl font-bold text-white w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
-                            <p className='text-gray-50 mt-7 w-[500px] text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
-                            <div className='flex gap-5 mt-7'>
-                                <Link to='/rooms'><button className='py-4 px-5 bg-[#FF3811] hover:bg-orange-600 text-white text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
+                        <div className='md:ml-10 lg:ml-24 md:mt-10 lg:mt-24'>
+                            <h1 className='md:text-3xl lg:text-6xl font-bold text-white md:w-[280px] lg:w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
+                            <p className='text-gray-50 md:mt-3 lg:mt-7 md:w-[250px] lg:w-[500px] md:text-[12px] lg:text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
+                            <div className='flex gap-5 md:mt-3 lg:mt-7'>
+                                <Link to='/rooms'><button className='md:px-4 lg:py-4 md:py-2 lg:px-5 bg-[#FF3811] hover:bg-orange-600 text-white lg:text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
 
                             </div>
                         </div>
@@ -66,11 +66,11 @@ const Banner = () => {
                 {/* Slider 3 */}
                 <SwiperSlide><img className='space-y-reverse' src={banner3} />
                     <div className="absolute flex h-full  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] ">
-                        <div className='ml-24 mt-24'>
-                            <h1 className='text-6xl font-bold text-white w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
-                            <p className='text-gray-50 mt-7 w-[500px] text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
-                            <div className='flex gap-5 mt-7'>
-                                <Link to='/rooms'><button className='py-4 px-5 bg-[#FF3811] hover:bg-orange-600 text-white text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
+                        <div className='md:ml-10 lg:ml-24 md:mt-10 lg:mt-24'>
+                            <h1 className='md:text-3xl lg:text-6xl font-bold text-white md:w-[280px] lg:w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
+                            <p className='text-gray-50 md:mt-3 lg:mt-7 md:w-[250px] lg:w-[500px] md:text-[12px] lg:text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
+                            <div className='flex gap-5 md:mt-3 lg:mt-7'>
+                                <Link to='/rooms'><button className='md:px-4 lg:py-4 md:py-2 lg:px-5 bg-[#FF3811] hover:bg-orange-600 text-white lg:text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
 
                             </div>
                         </div>
@@ -79,11 +79,11 @@ const Banner = () => {
                 {/* Slider 4 */}
                 <SwiperSlide><img className='space-y-reverse' src={banner4} />
                     <div className="absolute flex h-full  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] ">
-                        <div className='ml-24 mt-24'>
-                            <h1 className='text-6xl font-bold text-white w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
-                            <p className='text-gray-50 mt-7 w-[500px] text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
-                            <div className='flex gap-5 mt-7'>
-                                <Link to='/rooms'><button className='py-4 px-5 bg-[#FF3811] hover:bg-orange-600 text-white text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
+                        <div className='md:ml-10 lg:ml-24 md:mt-10 lg:mt-24'>
+                            <h1 className='md:text-3xl lg:text-6xl font-bold text-white md:w-[280px] lg:w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
+                            <p className='text-gray-50 md:mt-3 lg:mt-7 md:w-[250px] lg:w-[500px] md:text-[12px] lg:text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
+                            <div className='flex gap-5 md:mt-3 lg:mt-7'>
+                                <Link to='/rooms'><button className='md:px-4 lg:py-4 md:py-2 lg:px-5 bg-[#FF3811] hover:bg-orange-600 text-white lg:text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
 
                             </div>
                         </div>
@@ -92,11 +92,11 @@ const Banner = () => {
                 {/* Slider 4 */}
                 <SwiperSlide><img className='space-y-reverse' src={banner5} />
                     <div className="absolute flex h-full  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] ">
-                        <div className='ml-24 mt-24'>
-                            <h1 className='text-6xl font-bold text-white w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
-                            <p className='text-gray-50 mt-7 w-[500px] text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
-                            <div className='flex gap-5 mt-7'>
-                                <Link to='/rooms'><button className='py-4 px-5 bg-[#FF3811] hover:bg-orange-600 text-white text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
+                        <div className='md:ml-10 lg:ml-24 md:mt-10 lg:mt-24'>
+                            <h1 className='md:text-3xl lg:text-6xl font-bold text-white md:w-[280px] lg:w-[463px] '><span className='text-[#FF3611]'>Find Your</span> Perfect Place To Stay</h1>
+                            <p className='text-gray-50 md:mt-3 lg:mt-7 md:w-[250px] lg:w-[500px] md:text-[12px] lg:text-[18px]'>Hotel booking is a convenient way to secure accommodations for your travels. It allows you to choose from a range of lodging options, compare prices, and make reservations in advance.</p>
+                            <div className='flex gap-5 md:mt-3 lg:mt-7'>
+                                <Link to='/rooms'><button className='md:px-4 lg:py-4 md:py-2 lg:px-5 bg-[#FF3811] hover:bg-orange-600 text-white lg:text-[18px] font-semibold rounded-md'>Bookin Now</button></Link>
 
                             </div>
                         </div>

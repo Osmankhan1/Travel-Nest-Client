@@ -23,7 +23,7 @@ const Register = () => {
         .then(result => {
             console.log(result.user)
             e.target.reset();
-            navigate('/home')
+            navigate('/')
             Swal.fire({
                 title: 'Successfull',
                 text: 'You can successfully registerd',

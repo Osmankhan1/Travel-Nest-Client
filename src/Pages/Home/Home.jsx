@@ -11,12 +11,14 @@ import Testimonial from "./Testimonial";
 const Home = () => {
     return (
         <div>
-           <Banner></Banner>
-           <Packege></Packege>
-           <Map></Map>
-           <Testimonial></Testimonial>
-           <LatestNews></LatestNews>
-           <Subscribe></Subscribe>
+            <div className="hidden md:block lg:block">
+                <Banner></Banner>
+            </div>
+            <Packege></Packege>
+            <Map></Map>
+            <Testimonial></Testimonial>
+            <LatestNews></LatestNews>
+            <Subscribe></Subscribe>
         </div>
     );
 };

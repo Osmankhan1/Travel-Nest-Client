@@ -4,7 +4,7 @@ const RoomsCart = ({ roomCart }) => {
     const {_id, image, room_type } = roomCart;
     return (
         <div className=''>
-            <div className="card card-compact w-96 bg-base-100 shadow-xl ">
+            <div className="card card-compact lg:w-96 bg-base-100 shadow-xl ">
                 <figure><img className=' h-[250px] hover:scale-125 duration-200' src={image} /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{room_type}</h2>

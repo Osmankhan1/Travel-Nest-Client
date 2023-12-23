@@ -6,6 +6,7 @@
         "discount": "20%",
         "price_per_night": "$150",
         "title": "Deluxe Ocean View Room",
+        "sort_des": "Experience the ultimate in luxury with our Deluxe Ocean View Room",
         "description": "Experience the ultimate in luxury with our Deluxe Ocean View Room. Breathtaking views of the azure sea and direct access to the private beach will make your stay unforgettable. The room features a king-sized bed, a private balcony, and a spacious bathroom. Immerse yourself in the beauty of the coast, and enjoy all the comforts you desire.",
         "rent_per_night": "$250"
       },
@@ -16,6 +17,7 @@
         "discount": "15%",
         "price_per_night": "$120",
         "title": "Mountain View Suite",
+        "sort_des": "Find serenity and escape to the mountains in our Mountain View Suite.",
         "description": "Find serenity and escape to the mountains in our Mountain View Suite. The suite offers panoramic vistas of towering peaks, a cozy fireplace, a king-sized bed, and a luxurious bathroom. Explore nearby hiking trails, unwind by the fireplace, and relish the tranquility of the mountain setting.",
         "rent_per_night": "$180"
       },
@@ -26,6 +28,7 @@
         "discount": "25%",
         "price_per_night": "$220",
         "title": "City View Executive Suite",
+        "sort_des": "Indulge in the luxury of our City View Executive Suite in the heart of the city.",
         "description": "Indulge in the luxury of our City View Executive Suite in the heart of the city. The suite features a separate living area, a king-sized bed, a private balcony with stunning city views, and a spa-inspired bathroom. Experience the vibrancy of the city and unwind in style.",
         "rent_per_night": "$300"
       },
@@ -36,6 +39,7 @@
         "discount": "30%",
         "price_per_night": "$200",
         "title": "Antique Room with a View",
+        "sort_des": "Step back in time with our Antique Room with a View.",
         "description": "Step back in time with our Antique Room with a View. This charming room is furnished with antique decor, a queen-sized bed, and offers picturesque views of the historic town. Enjoy a sense of nostalgia and immerse yourself in the rich history of the area.",
         "rent_per_night": "$120"
       },
@@ -46,6 +50,7 @@
         "discount": "10%",
         "price_per_night": "$300",
         "title": "Beachfront Bungalow",
+        "sort_des": "Escape to a tropical paradise in our Beachfront Bungalow.",
         "description": "Escape to a tropical paradise in our Beachfront Bungalow. The bungalow offers direct access to the beach, a thatched roof, a king-sized bed, and a private outdoor shower. Enjoy the sound of the waves and the lush tropical surroundings.",
         "rent_per_night": "$280"
       },
@@ -56,6 +61,7 @@
         "discount": "20%",
         "price_per_night": "$180",
         "title": "Lakeside Cabin",
+        "sort_des": "Embrace the rustic charm of our Lakeside Cabin.",
         "description": "Embrace the rustic charm of our Lakeside Cabin. Nestled by a serene lake, the cabin features a cozy fireplace, a queen-sized bed, and a private dock. Immerse yourself in the tranquility of the wilderness and create lasting memories.",
         "rent_per_night": "$150"
       },
@@ -66,6 +72,7 @@
         "discount": "15%",
         "price_per_night": "$160",
         "title": "Deluxe Ocean View Room",
+        "sort_des": "Experience the ultimate in luxury with our Deluxe Ocean View Room.",
         "description": "Experience the ultimate in luxury with our Deluxe Ocean View Room. Breathtaking views of the azure sea and direct access to the private beach will make your stay unforgettable. The room features a king-sized bed, a private balcony, and a spacious bathroom. Immerse yourself in the beauty of the coast, and enjoy all the comforts you desire.",
         "rent_per_night": "$250"
       },
@@ -76,6 +83,7 @@
         "discount": "25%",
         "price_per_night": "$190",
         "title": "Mountain View Suite",
+        "sort_des": "Find serenity and escape to the mountains in our Mountain View Suite.",
         "description": "Find serenity and escape to the mountains in our Mountain View Suite. The suite offers panoramic vistas of towering peaks, a cozy fireplace, a king-sized bed, and a luxurious bathroom. Explore nearby hiking trails, unwind by the fireplace, and relish the tranquility of the mountain setting.",
         "rent_per_night": "$180"
       },
@@ -86,6 +94,7 @@
         "discount": "10%",
         "price_per_night": "$130",
         "title": "City View Executive Suite",
+        "sort_des": "Indulge in the luxury of our City View Executive Suite in the heart of the city.",
         "description": "Indulge in the luxury of our City View Executive Suite in the heart of the city. The suite features a separate living area, a king-sized bed, a private balcony with stunning city views, and a spa-inspired bathroom. Experience the vibrancy of the city and unwind in style.",
         "rent_per_night": "$300"
       },
@@ -96,6 +105,7 @@
         "discount": "20%",
         "price_per_night": "$210",
         "title": "Antique Room with a View",
+        "sort_des": "Step back in time with our Antique Room with a View.",
         "description": "Step back in time with our Antique Room with a View. This charming room is furnished with antique decor, a queen-sized bed, and offers picturesque views of the historic town. Enjoy a sense of nostalgia and immerse yourself in the rich history of the area.",
         "rent_per_night": "$120"
       },
@@ -106,6 +116,7 @@
         "discount": "30%",
         "price_per_night": "$400",
         "title": "Beachfront Bungalow",
+        "sort_des": "Escape to a tropical paradise in our Beachfront Bungalow.",
         "description": "Escape to a tropical paradise in our Beachfront Bungalow. The bungalow offers direct access to the beach, a thatched roof, a king-sized bed, and a private outdoor shower. Enjoy the sound of the waves and the lush tropical surroundings.",
         "rent_per_night": "$280"
       },
@@ -116,6 +127,7 @@
         "discount": "5%",
         "price_per_night": "$90",
         "title": "Lakeside Cabin",
+        "sort_des": "Embrace the rustic charm of our Lakeside Cabin.",
         "description": "Embrace the rustic charm of our Lakeside Cabin. Nestled by a serene lake, the cabin features a cozy fireplace, a queen-sized bed, and a private dock. Immerse yourself in the tranquility of the wilderness and create lasting memories.",
         "rent_per_night": "$150"
       }
