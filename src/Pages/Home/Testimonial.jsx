@@ -13,10 +13,10 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
-        <div className="mt-48 max-w-7xl mx-auto rounded-xl">
+        <div className="mt-16 md:mt-48 max-w-7xl mx-auto rounded-xl">
             <p className="lg:text-xl font-semibold text-green-900 text-center">What Say Clients</p>
-            <h1 className="text-[25px] md:text-[42px] text-center font-bold mt-4  m-auto">Our <span className="text-[#FF3811]">Clients</span> are Important to Us</h1>
-            <div className='mt-20 mb-32'>
+            <h1 className="text-[25px] px-10 md:px-0 md:text-[42px] text-center font-bold mt-4  m-auto">Our <span className="text-[#FF3811]">Clients</span> are Important to Us</h1>
+            <div className='md:mt-20 mb-32'>
                 <>
                     <Swiper
                         spaceBetween={30}

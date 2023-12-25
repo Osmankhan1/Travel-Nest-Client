@@ -14,12 +14,18 @@ const Navbar = () => {
             .catch(error => console.error(error))
     }
 
+
+
+
     const links = <>
         <li><NavLink className='mr-3 text-xl font-semibold' to='/'>Home</NavLink></li>
         <li><NavLink className='mr-3 text-xl font-semibold' to='rooms'>Rooms</NavLink></li>
         <li><NavLink className='mr-3 text-xl font-semibold' to='bookings'>My Bookings</NavLink></li>
        
     </>
+
+
+
     return (
         <div className="navbar bg-slate-100 ">
             <div className="navbar-start">
@@ -48,16 +54,19 @@ const Navbar = () => {
 
                 </ul>
             </div>
+
+
             <div className="navbar-end gap-2">
                 {
                     user ? <>
-                        <span>{user.email}</span>
+                        <span className="hidden md:block lg:block">{user.email}</span>
                         <a onClick={handleSignOut} className="btn btn-sm mr-3 text-white bg-green-700 hover:bg-green-800">Log Out</a>
                     </> :
                     <Link className="btn btn-sm mr-3 text-white bg-green-700 hover:bg-green-800" to='/login'>Login</Link>
                 }
                 
             </div>
+            
         </div>
     );
 };

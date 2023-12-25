@@ -55,8 +55,8 @@ const Login = () => {
     return (
         <div className="hero min-h-screen bg-slate-200">
             <div className="hero-content flex-col ">
-                <h1 className="text-5xl font-semibold mb-4">Login <span className="text-[#FF3811]">now!</span></h1>
-                <div className="card  w-full max-w-sm shadow-2xl bg-base-200">
+                <h1 className="text-2xl md:text-5xl font-semibold mb-4">Login <span className="text-[#FF3811]">now!</span></h1>
+                <div className="card md:w-full max-w-sm shadow-2xl bg-base-200">
                     <form onSubmit={handleLogin} className="card-body">
                         <div className="form-control">
                             <label className="label">
@@ -83,7 +83,7 @@ const Login = () => {
                     </form>
                 </div>
 
-                <div className="form-control mt-6 w-[400px] ">
+                <div className="form-control mt-6 w-[300px] md:w-[400px] ">
                     <button onClick={handleGoogleLogin}  className="btn bg-green-600 text-white hover:bg-green-700"><span className="text-2xl"><FcGoogle></FcGoogle></span>Google</button>
                 </div>
 

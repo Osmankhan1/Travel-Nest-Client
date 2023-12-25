@@ -20,7 +20,11 @@ const Rooms = () => {
                 </div>
             </div >
 
-            <div className='flex mt-8'>
+            <div className='ml-10 mt-8'>
+                <div className='max-w-7xl mx-auto flex  mt-10 mb-7'>
+                    <input className='py-1 px-2 bg-slate-200 rounded-l-md' type="text" name='search' placeholder=' Search Your Room..' />
+                    <input className='py-2 px-2 bg-[#FF3811] text-white rounded-r-md' type="submit" name='submit' value='Search' />
+                </div>
                 <div className='max-w-7xl m-auto flex  mt-3'>
                     {/* <h1>Sorting</h1> */}
 
@@ -39,14 +43,10 @@ const Rooms = () => {
                     }
 
                 </div>
-                <div className='max-w-7xl mx-auto flex  mt-5'>
-                    <input className='py-1 px-2 bg-slate-200 rounded-l-md' type="text" name='search' placeholder=' Search Your Room..' />
-                    <input className='py-2 px-2 bg-[#FF3811] text-white rounded-r-md' type="submit" name='submit' value='Search' />
-                </div>
 
             </div>
 
-            <div className='max-w-7xl pl-10 md:p-10 lg:p-0 mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20 mb-36'>
+            <div className='max-w-7xl p-4 md:p-10 lg:p-0 mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20 mb-36'>
                 {
                     roomsAllData &&
                     roomsAllData?.map(roomCart => <RoomsCart key={roomCart._id} roomCart={roomCart}></RoomsCart>)

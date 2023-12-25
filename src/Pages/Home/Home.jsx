@@ -11,9 +11,9 @@ import Testimonial from "./Testimonial";
 const Home = () => {
     return (
         <div>
-            <div className="hidden md:block lg:block">
+            {/* <div className="hidden md:block lg:block"> */}
                 <Banner></Banner>
-            </div>
+            {/* </div> */}
             <Packege></Packege>
             <Map></Map>
             <Testimonial></Testimonial>

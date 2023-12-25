@@ -40,7 +40,7 @@ const Register = () => {
     return (
         <div className="hero min-h-screen bg-slate-200">
             <div className="hero-content flex-col ">
-                <h1 className="text-5xl font-semibold mb-4">Registration <span className="text-[#FF3811]">now!</span></h1>
+                <h1 className="text-2xl md:text-5xl font-semibold mb-4">Registration <span className="text-[#FF3811]">now!</span></h1>
                 <div className="card  w-full max-w-sm shadow-2xl bg-base-200">
                     <form onSubmit={handleRegister} className="card-body ">
                         <div className="form-control">
@@ -65,7 +65,7 @@ const Register = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn bg-[#FF3811] hover:bg-orange-600 text-white font-semibold">Login</button>
+                            <button className="btn bg-[#FF3811] hover:bg-orange-600 text-white font-semibold">Registration</button>
                             <div className="flex justify-between mt-1">
                                 <h1>Have an Account?</h1>
                                 <Link className="text-blue-600 font-semibold underline" to='/login'>Login</Link>
